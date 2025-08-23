@@ -51,9 +51,23 @@ body {
     color: var(--white);
   }
 }
-@media (hover : none) {
-  .btn:active{
+@media (hover: none) {
+  .btn:active {
     background: var(--bg);
     color: var(--white);
   }
+}
+
+.title {
+  display: flex;
+  align-items: flex-start;
+}
+.title-h {
+  font-family: var(--CB);
+  font-weight: 400;
+  font-size: 36px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--orange);
+  text-transform: capitalize;
+  color: var(--orange);
 }
