@@ -1,0 +1,80 @@
+.series {
+  padding: 64px 0;
+}
+
+.series__wrap {
+  margin-top: 54px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: (6, 1fr);
+  grid-auto-rows: 190px;
+}
+
+.series__card1 {
+  background: url(../img/seriesPost.png) no-repeat center/cover;
+  grid-row: 2 span;
+  grid-column: 2 span;
+  padding: 96px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  border-radius: 6px;
+}
+
+.series__title {
+  font-family: var(--CB);
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--white);
+}
+
+.series__desc {
+  font-family: var(--CR);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.series__card2 {
+  background: url(../img/series1.png) no-repeat center/cover;
+  grid-row: 2 span;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.series__card-icon {
+  font-size: 40px;
+  color: var(--white);
+}
+
+.series__card3{
+    background: url(../img/series2.png) no-repeat center/cover;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+grid-column: 1 span;
+grid-row: 1 span;
+}
+
+.series__card4{
+    background: url(../img/series3.png) no-repeat center/cover;
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 255px;
+}
