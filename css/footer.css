@@ -1,0 +1,24 @@
+.footer {
+    padding: 26px 0;
+    background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+}
+
+.footer__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__nav-list1 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer__nav-list2_text {
+    font-family: var(--CB);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--white);
+}
+
